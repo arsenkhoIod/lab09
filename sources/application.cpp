@@ -1,10 +1,9 @@
-//
-// Created by arsenykhoIod on 4/15/21.
-//
+//Copyright [2021] <arsenykholod@yandex.ru>
 
 #include "application.hpp"
 
-application::application(std::string _link, size_t _depth, size_t _network_threads,
+application::application(std::string _link, size_t _depth,
+                         size_t _network_threads,
                          size_t _parser_threads, std::string _output)
     :   link(std::move(_link))
     , depth(_depth)

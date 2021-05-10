@@ -14,8 +14,8 @@
 
 class application {
  public:
-  application(std::string _link,size_t _depth,size_t _network_threads,
-              size_t _parser_threads,std::string _output);
+  application(std::string _link, size_t _depth, size_t _network_threads,
+              size_t _parser_threads, std::string _output);
   void work();
 
  private:
